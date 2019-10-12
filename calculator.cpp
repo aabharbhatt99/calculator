@@ -12,12 +12,6 @@ void square(int c)
  cout << "square is" << square;
 }
 
-int main()
-{
-int a,b,c;
-sum(a,b);
- square(c);
-=======
 void subtract(int c, int d)
 {
  int subtract = c-d;
@@ -29,5 +23,6 @@ void subtract(int c, int d)
 int a,b,c,d;
 sum(a,b);
 subtract(c,d);
+  square(c);
 return 0;
 }
