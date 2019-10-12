@@ -6,7 +6,6 @@ void sum(int a, int b)
  int sum = a+b;
  cout << "sum is" << sum;
 }
-
 void square(int c)
 {
  int square = c*c;
@@ -18,5 +17,17 @@ int main()
 int a,b,c;
 sum(a,b);
  square(c);
+=======
+void subtract(int c, int d)
+{
+ int subtract = c-d;
+ cout<<"ans is"<<subtract;
+}
+  
+ int main()
+{
+int a,b,c,d;
+sum(a,b);
+subtract(c,d);
 return 0;
 }
