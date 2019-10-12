@@ -24,10 +24,11 @@ void subtract(int c, int d)
   
  int main()
 {
-int a,b,c,d,y;
+int a,b,c,d;
+ int y;
 sum(a,b);
 subtract(c,d);
 square(c);
 cube(y);
- return 0;
+return 0;
 }
