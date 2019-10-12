@@ -21,14 +21,21 @@ void subtract(int c, int d)
  int subtract = c-d;
  cout<<"ans is"<<subtract;
 }
-  
+void remainder(int m ,int n)
+{
+int rem = m%n 
+ cout<<"the remainder is "<<rem;
+}
+
  int main()
 {
 int a,b,c,d;
  int y;
+  int m, n;
 sum(a,b);
 subtract(c,d);
 square(c);
 cube(y);
+ remainder(m,n);
 return 0;
 }
