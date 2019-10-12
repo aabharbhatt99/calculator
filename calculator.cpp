@@ -23,6 +23,6 @@ void subtract(int c, int d)
 int a,b,c,d;
 sum(a,b);
 subtract(c,d);
-  square(c);
+square(c);
 return 0;
 }
