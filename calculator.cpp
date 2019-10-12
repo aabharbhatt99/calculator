@@ -11,7 +11,11 @@ void square(int c)
  int square = c*c;
  cout << "square is" << square;
 }
-
+void cube(int y)
+{
+ int cube = y*y*y;
+ cout << "cube is" << cube;
+}
 void subtract(int c, int d)
 {
  int subtract = c-d;
@@ -20,9 +24,10 @@ void subtract(int c, int d)
   
  int main()
 {
-int a,b,c,d;
+int a,b,c,d,y;
 sum(a,b);
 subtract(c,d);
 square(c);
-return 0;
+cube(y);
+ return 0;
 }
