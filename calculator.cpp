@@ -24,28 +24,30 @@ void subtract(int c, int d)
 void remainder(int m ,int n)
 {
 int rem = m%n 
- cout<<"the remainder is "<<rem;
+cout<<"the remainder is "<<rem;
+}
+void divide(int a, int b)
+{
+  cout << "\n\n Divide two numbers and print:\n";
+  cout << "----------------------------------\n";
+  int resdiv;
+  a=30;
+  b=10;
+  resdiv=a/b;
+  cout << " The quotient of "<< a << " and "<<b <<" is : "<< resdiv <<"\n\n" ;	
 }
 
- int main()
+int main()
 {
 int a,b,c,d;
- int y;
-  int m, n;
+int y;
+int m, n;
 sum(a,b);
 subtract(c,d);
 square(c);
 cube(y);
- remainder(m,n);
-  cout << "\n\n Divide two numbers and print:\n";
-	cout << "----------------------------------\n";
-	int a;
-	int b;
-	int resdiv;
-	a=30;
-	b=10;
-	resdiv=a/b;
-	cout << " The quotient of "<< a << " and "<<b <<" is : "<< resdiv <<"\n\n" ;
+remainder(m,n);
+divide(a,b);  
 return 0;
 }
 
