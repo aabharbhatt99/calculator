@@ -37,5 +37,16 @@ subtract(c,d);
 square(c);
 cube(y);
  remainder(m,n);
+  cout << "\n\n Divide two numbers and print:\n";
+	cout << "----------------------------------\n";
+	int a;
+	int b;
+	int resdiv;
+	a=30;
+	b=10;
+	resdiv=a/b;
+	cout << " The quotient of "<< a << " and "<<b <<" is : "<< resdiv <<"\n\n" ;
 return 0;
 }
+
+
