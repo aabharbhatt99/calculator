@@ -23,7 +23,7 @@ remainder(m,n);
 divide(a,b);
 reverse(n);
 factorial(n);
-
+  
 return 0;
  }
 
@@ -50,8 +50,9 @@ void subtract(int c, int d)
 void remainder(int m ,int n)
 {
 int rem = m%n 
- cout<<"the remainder is "<<rem;
+cout<<"the remainder is "<<rem;
 }
+
 void divide(int a, int b)
 {
 cout << "\n\n Divide two numbers and print:\n";
