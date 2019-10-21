@@ -1,6 +1,32 @@
 #include<iostream>
 using namespace std;
 
+void sum(int a, int b);
+void square(int c);
+void cube(int y);
+void subtract(int c, int d);
+void remainder(int m ,int n);
+void divide(int a, int b);
+void reverse(int n);
+void factorial(int n);
+
+int main()
+{
+int a,b,c,d;
+int y;
+int m, n;
+sum(a,b);
+subtract(c,d);
+square(c);
+cube(y);
+remainder(m,n);
+divide(a,b);
+reverse(n);
+factorial(n);
+
+return 0;
+ }
+
 void sum(int a, int b)
 {
  int sum = a+b;
@@ -26,28 +52,21 @@ void remainder(int m ,int n)
 int rem = m%n 
  cout<<"the remainder is "<<rem;
 }
-
- int main()
+void divide(int a, int b)
 {
-int a,b,c,d;
- int y;
-  int m, n;
-sum(a,b);
-subtract(c,d);
-square(c);
-cube(y);
- remainder(m,n);
-  cout << "\n\n Divide two numbers and print:\n";
-	cout << "----------------------------------\n";
-	int a;
-	int b;
-	int resdiv;
-	a=30;
-	b=10;
-	resdiv=a/b;
-	cout << " The quotient of "<< a << " and "<<b <<" is : "<< resdiv <<"\n\n" ;
+cout << "\n\n Divide two numbers and print:\n";
+cout << "----------------------------------\n";
+int a;
+int b;
+int resdiv;
+a=30;
+b=10;
+resdiv=a/b;
+cout << " The quotient of "<< a << " and "<<b <<" is : "<< resdiv <<"\n\n" ;
 return 0;
 }
+void reverse(int n)
+{
     int n, reverse = 0, remainder;
     printf("Enter any number: ");
     scanf("%d", &n);
@@ -58,29 +77,11 @@ return 0;
         n /= 10;
     }
     printf("Reversed Number = %d", reverse);
-    return 0;
+    return 0;	
 }
-#include <stdio.h>
-int main()
+void factorial(int n)
 {
-    int n, i, factorial;
-    factorial = 1;
-    printf("Enter an integer: ");
-    scanf("%d",&n);
-    
-    if (n < 0)
-        printf("Error! Factorial of a negative number doesn't exist.");
-    else
-    {
-        for(i=1; i<=n; ++i)
-        {
-            factorial *= i;             
-        }
-        printf("Factorial of %d = %llu", n, factorial);
-    }
-    return 0;
-}
- int n, i, factorial;
+	int n, i, factorial;
     factorial = 1;
     printf("Enter an integer: ");
     scanf("%d",&n);
