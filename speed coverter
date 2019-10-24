@@ -1,0 +1,30 @@
+#include <bits/stdc++.h> 
+using namespace std; 
+   
+// in km/hr to m/sec 
+float kmph_to_mps(float kmph) 
+{ 
+    return (0.277778 * kmph); 
+} 
+  
+// in m/sec to km/hr 
+float mps_to_kmph(float mps) 
+{ 
+    return (3.6 * mps); 
+} 
+  
+
+int main() 
+{ 
+    // speed in kmph 
+    float kmph = 72.0; 
+      
+     
+    // speed in mps 
+    float mps = 10.0; 
+      
+    cout << "speed_in_mps = " << kmph_to_mps(kmph)  
+         << " speed_in_kmph = " << mps_to_kmph(mps); 
+           
+    return 0; 
+}
