@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    cout << "Please enter your weight (in kilograms): ";
+    double weight;
+    cin >> weight;
+ 
+    cout << "Please enter your height (in meters): ";
+    double height;
+    cin >> height;
+ 
+    double BodyMassIndex = weight / (height * height);//BMI is calculated by dividing a person's weight by the square of his/her height.
+ 
+    cout << "Your Body Mass Index (BMI) is " << BodyMassIndex << endl;//Prints the BMI of the person.
+ 
+    if(BodyMassIndex < 18.5)
+        cout << "Unfortunately, you are malnourished.\n";//If a person's BMI falls below 18.5, he/she is considered to be malnourished.
+    else if(BodyMassIndex > 25)
+        cout << "Unfortunately, you are overweight.\n";//If a person's BMI rises over 25, he/she is considered to be overweight.
+    else if(BodyMassIndex >= 18.5 && BodyMassIndex <= 25)
+        cout << "Rejoice! You are perfectly healthy!\n";//If a person's BMI is neither of the above, he/she is considered to be healthy.
+}
